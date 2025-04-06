@@ -6,11 +6,10 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
+    "emulators": {
+      "host": {
+        "port": "9999"
       }
-    ]
+  }
   }
 }
