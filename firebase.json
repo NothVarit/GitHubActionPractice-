@@ -10,6 +10,15 @@
       "host": {
         "port": "9999"
       }
-  }
+    }
+  },
+  "emulators": {
+    "hosting": {
+      "port": 9999
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
   }
 }
